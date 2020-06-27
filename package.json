@@ -1,0 +1,27 @@
+{
+  "name": "playstore",
+  "version": "1.0.0",
+  "description": "express. ckpt4",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamara570/playstore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamara570/playstore/issues"
+  },
+  "homepage": "https://github.com/Tamara570/playstore#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
