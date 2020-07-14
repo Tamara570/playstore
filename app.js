@@ -10,6 +10,7 @@ app.get('/apps', (req, res) => {
 
     //set genre and sort as queries
     const { genre = " ", sort } = req.query;
+  
     
     //create new variable for the results created by filtering the playlist by genre
     let results = playlist.filter(playlist => 
@@ -31,6 +32,4 @@ app.get('/apps', (req, res) => {
 
 });
 
-app.listen(8000, () => {
-    console.log('Server started on PORT 8000');
-});
+module.exports = app;
